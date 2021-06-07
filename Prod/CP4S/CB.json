@@ -1,140 +1,147 @@
 {
-    "type": "bundle",
-    "id": "bundle--d6e84eb8-3876-43f4-ae63-463b49eda893",
-    "spec_version": "2.0",
+    "id": "bundle--a625c45a-c49c-488c-a9c0-8ff9529ae1ad",
     "objects": [
         {
-            "type": "x-ibm-finding",
-            "id": "finding--20feee85-f6f8-427c-9dc1-7fde08310491",
-            "name": "Guardium",
-            "identity_class": "finding",
-            "created": "2019-05-01T20:31:30.625Z"
+            "created": "2020-01-23T11:42:37.424Z",
+            "id": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
+            "identity_class": "system",
+            "modified": "2020-01-23T11:42:37.424Z",
+            "name": "carbonblack",
+            "type": "identity"
         },
         {
-            "id": "observed-data--a2490ee4-5245-4bec-a931-547d8e5b5207",
-            "type": "observed-data",
-            "created_by_ref": "finding--20feee85-f6f8-427c-9dc1-7fde08310491",
-            "created": "2020-09-02T07:53:17.121Z",
-            "modified": "2020-09-02T07:53:17.121Z",
+            "created": "2020-01-24T16:59:16.578Z",
+            "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
+            "first_observed": "2020-01-24T16:59:16.578Z",
+            "id": "observed-data--626a6ca7-1145-4a66-b695-e1fe8090c319",
+            "last_observed": "2020-01-24T16:59:16.578Z",
+            "modified": "2020-01-24T16:59:16.578Z",
+            "number_observed": 1,
             "objects": {
                 "0": {
-                    "type": "x-ibm-finding",
-                    "dst_device": "JDBC",
-                    "details": "SELECT * FROM COVID19_VACCINE_BATCHES_FORMULA, n.ns",
-                    "name": "Table Results Export",
-                    "finding_type": "Policy Violation",
-                    "src_database_user_ref": "2",
-                    "src_ip_ref": "3",
-                    "src_application_ref": "4",
-                    "dst_ip_ref": "5",
-                    "dst_application_ref": "6",
-                    "source": "yorktown_guardium.altoro.com"
+                    "hashes": {
+                        "MD5": "463a4a2ba2e9496201b711302c4e3008",
+                        "SHA-256": "21129ad17800b11cdb36906ba7f6105e3bd1cf44575f77df58ba91640ba0cab9"
+                    },
+                    "name": "support.mp4",
+                    "type": "file"
                 },
                 "1": {
-                    "type": "x-guardium",
-                    "severity": "High"
+                    "binary_ref": "0",
+                    "command_line": "C:\\Users\\KHenderson\\Downloads\\support.mp4",
+                    "created": "2020-01-24T16:59:16.578Z",
+                    "creator_user_ref": "8",
+                    "name": "support.mp4",
+                    "opened_connection_refs": [
+                        "6"
+                    ],
+                    "parent_ref": "3",
+                    "pid": 7284,
+                    "type": "process"
                 },
                 "2": {
-                    "type": "user-account",
-                    "user_id": "KHenderson"
+                    "hashes": {
+                        "MD5": "463a4a2ba2e9496201b711302c4e3008"
+                    },
+                    "name": "support.mp4",
+                    "type": "file"
                 },
                 "3": {
-                    "type": "ipv4-addr",
-                    "value": "10.6.10.6"
+                    "binary_ref": "2",
+                    "name": "support.mp4",
+                    "pid": 800,
+                    "type": "process"
                 },
                 "4": {
-                    "type": "software",
-                    "name": "DB2"
+                    "type": "domain-name",
+                    "value": "altoro.test.com"
                 },
                 "5": {
                     "type": "ipv4-addr",
-                    "value": "10.120.209.202"
+                    "value": "103.216.221.19"
                 },
                 "6": {
-                    "type": "software",
-                    "name": "Microsoft Excel"
+                    "dst_ref": "5",
+                    "src_ref": "7",
+                    "type": "network-traffic"
+                },
+                "7": {
+                    "type": "ipv4-addr",
+                    "value": "10.120.209.202"
+                },
+                "8": {
+                    "type": "user-account",
+                    "user_id": "KHenderson@test.altoro.com"
                 }
             },
-            "first_observed": "2020-08-31T23:46:36.000Z",
-            "last_observed": "2020-08-31T23:46:36.000Z",
-            "number_observed": 1
+            "type": "observed-data"
         },
-{
-            "id": "observed-data--a2490ee4-5245-4bec-a931-547d8e5b5207",
-            "type": "observed-data",
-            "created_by_ref": "finding--20feee85-f6f8-427c-9dc1-7fde08310491",
-            "created": "2020-09-02T07:53:17.121Z",
-            "modified": "2020-09-02T07:53:17.121Z",
+        {
+            "created": "2020-01-24T13:05:54.972Z",
+            "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
+            "first_observed": "2020-01-24T13:05:54.972Z",
+            "id": "observed-data--e4f1d90e-0f50-4b60-ba20-89ac3a3e9f58",
+            "last_observed": "2020-01-24T13:05:54.972Z",
+            "modified": "2020-01-24T13:05:54.972Z",
+            "number_observed": 1,
             "objects": {
                 "0": {
-                    "type": "x-ibm-finding",
-                    "dst_device": "JDBC",
-                    "details": "SELECT * FROM COVID19_VACCINE_RESULTS, n.ns",
-                    "name": "Table Results Export",
-                    "finding_type": "Policy Violation",
-                    "src_database_user_ref": "2",
-                    "src_ip_ref": "3",
-                    "src_application_ref": "4",
-                    "dst_ip_ref": "5",
-                    "dst_application_ref": "6",
-                    "source": "yorktown_guardium.altoro.com"
+                    "hashes": {
+                        "MD5": "967fcf185634def5177f74b0f703bdc0"
+                    },
+                    "name": "applemobiledeviceservice.exe",
+                    "type": "file"
                 },
                 "1": {
-                    "type": "x-guardium",
-                    "severity": "High"
+                    "binary_ref": "0",
+                    "command_line": "\"C:\\Program Files\\Common Files\\Apple\\Mobile Device Support\\AppleMobileDeviceService.exe\"",
+                    "created": "2020-01-24T13:05:54.972Z",
+                    "creator_user_ref": "8",
+                    "name": "applemobiledeviceservice.exe",
+                    "opened_connection_refs": [
+                        "6"
+                    ],
+                    "parent_ref": "3",
+                    "pid": 4956,
+                    "type": "process"
                 },
                 "2": {
-                    "type": "user-account",
-                    "user_id": "KHenderson"
+                    "hashes": {
+                        "MD5": "967fcf185634def5177f74b0f703bdc0"
+                    },
+                    "name": "services.exe",
+                    "type": "file"
                 },
                 "3": {
-                    "type": "ipv4-addr",
-                    "value": "10.6.10.6"
+                    "binary_ref": "2",
+                    "name": "services.exe",
+                    "pid": 564,
+                    "type": "process"
                 },
                 "4": {
-                    "type": "software",
-                    "name": "DB2"
+                    "type": "domain-name",
+                    "value": "altoro.test.com"
                 },
                 "5": {
                     "type": "ipv4-addr",
-                    "value": "10.120.209.202"
+                    "value": "1.9.1.8"
                 },
                 "6": {
-                    "type": "software",
-                    "name": "Microsoft Excel"
-                }
-            },
-            "first_observed": "2020-08-31T23:46:36.000Z",
-            "last_observed": "2020-08-31T23:46:36.000Z",
-            "number_observed": 1
-        },
-{
-            "id": "observed-data--8a516e14-c4ee-42a2-a7f1-54e10a5288d3",
-            "type": "observed-data",
-            "created_by_ref": "finding--20feee85-f6f8-427c-9dc1-7fde08310491",
-            "created": "2020-09-02T07:53:17.221Z",
-            "modified": "2020-09-02T07:53:17.221Z",
-            "objects": {
-                "0": {
-                    "type": "x-guardium",
-                    "severity": "Medium"
+                    "dst_ref": "5",
+                    "src_ref": "7",
+                    "type": "network-traffic"
                 },
-                "1": {
-                    "type": "x-ibm-finding",
-                    "finding_type": "Threat Case",
-                    "name": "Anomaly",
-                    "dst_ip_ref": "2",
-                    "dst_device": "IoMTPOUMEDCARESCAPE-NS-CC01",
-                    "source": "yorktown_guardium.altoro.com"
-                },
-                "2": {
+                "7": {
                     "type": "ipv4-addr",
                     "value": "10.120.209.202"
+                },
+                "8": {
+                    "type": "user-account",
+                    "user_id": "KHenderson@test.altoro.com"
                 }
             },
-            "first_observed": "2020-08-13T07:03:15.000Z",
-            "last_observed": "2020-08-13T07:03:15.000Z",
-            "number_observed": 1
+            "type": "observed-data"
         }
-   ]
+    ],
+	"type": "bundle"
 }
