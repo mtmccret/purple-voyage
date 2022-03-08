@@ -75,7 +75,7 @@
                 },
                 "6": {
                     "type": "x-oca-asset",
-                    "hostname": "workstation1.sg2.local",
+                    "hostname": "WPOUBBLA01",
                     "ip_refs": [
                         "0",
                         "3"
@@ -124,7 +124,7 @@
                 },
                 "6": {
                     "type": "x-oca-asset",
-                    "hostname": "workstation1.sg2.local",
+                    "hostname": "WPOUBBLA01",
                     "ip_refs": [
                         "0",
                         "3"
