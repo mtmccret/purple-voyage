@@ -22,7 +22,7 @@
             "objects": {
                 "0": {
                     "type": "mac-addr",
-                    "value": "2D:3D:EB:42:C8:58"
+                    "value": "CC:46:D6:32:68:38"
                 },
                 "1": {
                     "type": "ipv4-addr",
@@ -52,7 +52,7 @@
             "objects": {
                 "0": {
                     "type": "mac-addr",
-                    "value": "2D:3D:EB:42:C8:58"
+                    "value": "CC:46:D6:32:68:38"
                 },
                 "1": {
                     "type": "ipv4-addr",
@@ -90,7 +90,7 @@
             "objects": {
                 "0": {
                     "type": "mac-addr",
-                    "value": "2D:3D:EB:42:C8:58"
+                    "value": "CC:46:D6:32:68:38"
                 },
                 "1": {
                     "type": "ipv4-addr",
@@ -128,7 +128,7 @@
             "objects": {
                 "0": {
                     "type": "mac-addr",
-                    "value": "2D:3D:EB:42:C8:58"
+                    "value": "CC:46:D6:32:68:38"
                 },
                 "1": {
                     "type": "ipv4-addr",
@@ -159,7 +159,7 @@
             "objects": {
                 "0": {
                     "type": "mac-addr",
-                    "value": "2D:3D:EB:42:C8:58"
+                    "value": "CC:46:D6:32:68:38"
                 },
                 "1": {
                     "type": "ipv4-addr",
@@ -181,10 +181,7 @@
                     "type": "user-account",
                     "user_id": "bblake"
                 }
-            },
-							"type": "observed-data"
+            }
         }
-
-    ],
-		"type": "bundle"
+    ]
 }
