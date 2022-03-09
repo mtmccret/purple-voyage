@@ -181,7 +181,10 @@
                     "type": "user-account",
                     "user_id": "bblake"
                 }
-            }
+            },
+							"type": "observed-data"
         }
-    ]
+
+    ],
+		"type": "bundle"
 }
