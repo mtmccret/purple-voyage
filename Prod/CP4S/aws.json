@@ -41,7 +41,7 @@
                 }
             }
         },
-        {
+	{
             "type": "observed-data",
             "id": "observed-data--cde551c3-4d16-4de2-80f6-1c739ad2b4d2",
             "created": "2022-03-08T17:06:54.147Z",
