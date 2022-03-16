@@ -40,6 +40,44 @@
                     "user_id": "bblake"
                 }
             }
+        },
+		{
+            "type": "observed-data",
+            "id": "observed-data--cde551c3-4d16-4de2-80f6-1c739ad2b4d2",
+            "created": "2022-03-08T17:06:54.147Z",
+            "modified": "2022-03-08T17:06:54.147Z",
+            "first_observed": "2022-03-08T11:08:29.278298Z",
+            "last_observed": "2022-03-08T11:08:29.278298Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:32:68:38"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "172.16.70.32",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "ipv4-addr",
+                    "value": "5.9.224.217"
+                },
+                "3": {
+                    "type": "network-traffic",
+                    "src_ref": "1",
+                    "dst_ref": "2",
+                    "protocols": [
+                        "tcp"
+                    ]
+                },
+                "4": {
+                    "type": "user-account",
+                    "user_id": "bblake"
+                }
+            }
         }
      ]
 }
