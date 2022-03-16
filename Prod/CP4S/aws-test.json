@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--6e13afda-35ee-493d-9bea-073d5d10afda",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--6db31a55-be03-4359-83de-2e33e68ec7c4",
+            "created": "2022-03-08T17:06:54.143Z",
+            "modified": "2022-03-08T17:06:54.143Z",
+            "name": "AWS",
+            "identity_class": "events"
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--0358bd24-97d3-4cd1-a369-4062630c9adc",
+            "created": "2022-03-08T17:06:54.145Z",
+            "modified": "2022-03-08T17:06:54.145Z",
+            "first_observed": "2022-03-08T11:07:40.27811Z",
+            "last_observed": "2022-03-08T11:07:40.27811Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:32:68:38"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "172.16.70.32",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "url",
+                    "value": "http://ua-passport.space/"
+                },
+                "3": {
+                    "type": "user-account",
+                    "user_id": "bblake"
+                }
+            }
+        }
+     ]
+}
