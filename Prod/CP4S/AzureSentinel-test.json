@@ -1,0 +1,73 @@
+{
+    "type": "bundle",
+    "id": "bundle--abe952aa-b943-4a9d-98d4-c6c073b4e8dc",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
+            "name": "Sentinel",
+            "identity_class": "events"
+        },            
+            {
+            "id": "observed-data--81afa14f-5463-4251-83ba-4aac261a5ea1",
+            "type": "observed-data",
+            "created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
+            "created": "2020-08-02T17:19:32.138Z",
+            "modified": "2020-08-02T17:19:32.138Z",
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "172.16.70.32",
+                    "resolves_to_refs": "2"
+                },
+                "1": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "src_port": 0,
+                    "dst_ref": "3",
+                    "dst_port": 0,
+                    "protocols": [
+                        "reserved"
+                    ]
+                },
+                "2": {
+                    "type": "mac-addr",
+                    "value": "2d:3d:eb:42:c8:58"
+                },
+                "3": {
+                    "type": "ipv4-addr",
+                    "value": "23.106.122.14",
+                    "resolves_to_refs": "4"
+                },
+                "4": {
+                    "type": "mac-addr",
+                    "value": "2d:5B:eb:24:c8:58"
+                },
+                "5": {
+                    "type": "user-account",
+                    "user_id": "bblake@test.altoro.com"
+                },
+                "6": {
+                    "type": "file",
+                    "name": "UkraineAttackDetails.docx"
+                },
+                "9": {
+                    "type": "domain",
+                    "path": "Azure-Sentinel.microsoft.com"
+                },
+                "10": {
+                    "type": "artifact",
+                    "payload_bin": "localhost:accountId:1283136,accessKeyId:ASIA5IO5NAC2OIBXQ4NY,userName:bblake,sessionContext:{attributes:{mfaAuthenticated:false,creationDate:2022-03-18T13:40:25Z}},invokedBy:BBlake},eventTime:2022-03-18T21:08:04Z,eventSource:Azure-Sentinel.microsoft.com,eventName:GetObject,Azure-SentinelRegion:us-central-2,sourceIPAddress:23.106.122.14,userAgent:[Azure-Sentinel-cli/1.15.57 Python/2.7.14+ Linux/4.15.0-kali2-amd64 botocore/1.10.56],requestParameters:{X-Amz-Date:20200802T210803Z,blobName:db_backups2032,response-content-disposition:inline,X-Aze-Algorithm:Azure-Sentinel4-HMAC-SHA256,X-Aze-SignedHeaders:host,X-Aze-Expires:300,key:fullDB_dump08022020.dump,responseElements:null,additionalEventData:{x-msf-id-2:aOFvDQjetBtTbrR6zfhmvFJEFS1dOdmSucSEVzd70yIwpLg6pSCalFewtoVchOzcSLKQswDjlAQ=},requestID:4D551A01693DE04D,eventID:73de1499-c6d0-4faa-84b3-f19f607a7a8d,readOnly:true,resources:[{type:Azure-Sentinel::DataLake::Object,ARN:arn:msft:DL:::mystorage2007/fullDB_dump08022020.dump},{accountId:911534260404,type:Azure-Sentinel::DataLake::Blob,ARN:arn:msft:DataLake:::db_backups2032}],eventType:Azure-SentinelApiCall,recipientAccountId:1283136"
+                }
+            },
+            "x_com_ibm_ariel": {
+                "qid_name": "Object Downloaded",
+                "category_name": "Azure-Sentinel DataLake Message",
+                "log_source_name": "Azure-Sentinel Audit Log"
+            },
+            "first_observed": "2022-03-18T16:42:58.140Z",
+            "last_observed": "2022-03-18T16:42:58.140Z",
+            "number_observed": 1
+        }
+    ]
+}
