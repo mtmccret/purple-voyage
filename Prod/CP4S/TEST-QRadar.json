@@ -1,0 +1,128 @@
+{
+	"type": "bundle",
+	"id": "bundle--2ce2a2d8-9e2a-11ec-b909-0242ac120002",
+	"objects": [{
+			"type": "identity",
+			"id": "identity--a1ae27e9-0144-420b-88f3-9ccd3c8f93f6",
+			"created": "2022-03-07T15:49:12.482Z",
+			"modified": "2022-03-07T15:49:12.482Z",
+			"name": "qradar",
+			"identity_class": "system"
+		},
+
+		{
+			"type": "observed-data",
+			"id": "observed-data--d8b7907e-e47d-48ae-8939-644f010a8bc5",
+			"first_observed": "2022-01-24T16:42:58.140Z",
+			"last_observed": "2022-01-24T16:42:58.140Z",
+			"number_observed": 1,
+			"objects": {
+				"0": {
+					"type": "x-oca-event",
+					"id": "x-oca-event--2ce2a576-9e2a-11ec-b909-0242ac120002",
+					"agent": "Apache @ apache.httpserver.test",
+					"action": "HTTP 200 - OK",
+					"created": "2022-02-24T05:58:32.000Z",
+					"outcome": "Request Successful",
+					"category": [
+						"Application"
+					],
+					"host_ref": "5",
+					"provider": "Apache HTTP Server",
+					"network_ref": "4",
+					"original_ref": "10"
+				},
+				"1": {
+					"qid": 4500003,
+					"type": "x-qradar",
+					"direction": "L2R",
+					"domain_id": 0,
+					"relevance": 10,
+					"category_id": 18466,
+					"credibility": 10,
+					"device_type": 10,
+					"domain_name": "Default Domain",
+					"has_offense": "true",
+					"log_source_id": 3462,
+					"cre_event_list": [
+						"100493",
+						"100788",
+						"100437",
+						"100226",
+						"100225",
+						"100221",
+						"100216",
+						"100720",
+						"100719"
+					],
+					"high_level_category_id": 18000
+				},
+				"2": {
+					"end": "2022-02-25T16:55:54.563Z",
+					"type": "x-ibm-finding",
+					"start": "2022-02-25T16:55:54.563Z",
+					"severity": 1,
+					"magnitude": 6,
+					"dst_ip_ref": "7",
+					"rule_names": [
+						"BB:UBA : Common Log Source Filters",
+						"BB:DeviceDefinition: Web Servers",
+						"ECBB:CategoryDefinition: Destination IP is a Third Country/Region",
+						"Source Asset Weight is High",
+						"Source Asset Exists",
+						"Destination Asset Weight is Low",
+						"Context is Local to Remote",
+						"Log4Shell Base Pattern",
+						"Log4Shell Evasion Pattern"
+					],
+					"src_ip_ref": "3",
+					"event_count": 1,
+					"finding_type": "event",
+					"dst_geolocation": "other",
+					"src_geolocation": "other"
+				},
+				"3": {
+					"type": "ipv4-addr",
+					"value": "192.168.56.101",
+					"resolves_to_refs": [
+						"6"
+					]
+				},
+				"4": {
+					"type": "network-traffic",
+					"dst_ref": "7",
+					"src_ref": "3",
+					"dst_port": 0,
+					"src_port": 0,
+					"protocols": [
+						"tcp"
+					]
+				},
+				"6": {
+					"type": "mac-addr",
+					"value": "00:00:00:00:00:00"
+				},
+				"7": {
+					"type": "ipv4-addr",
+					"value": "45.155.202.233",
+					"resolves_to_refs": [
+						"8"
+					]
+				},
+				"8": {
+					"type": "mac-addr",
+					"value": "00:00:00:00:00:00"
+				},
+				"9": {
+					"type": "ipv4-addr",
+					"value": "0.0.0.0"
+				},
+				"10": {
+					"type": "artifact",
+					"mime_type": "text/plain",
+					"payload_bin": "TWFyMDYgMTA6MDU6MzUgYXBhY2hlLmh0dHBzZXJ2ZXIudGVzdCBodHRwZDogMTkyLjE2OC41Ni4xMDEgNDUuMTU1LjIwMi4yMzMgLSAtIFswNi9NYXIvMjAyMjowNTo1ODozMiArMDAwMF0gIkdFVCAxOTIuMTY4LjU2LjEwMTo4MC8gSFRUUC8xLjEiIDIwMCAzNDI0ICIke2puZGk6bGRhcDovfTovLzQ1LjE1NS4yMDUuMjMzOjEyMzQ0L0Jhc2ljL0NvbW1hbmQvQmFzZTY0L0tHTjFjbXdnTFhNZ05EVXVNVFUxTGpJd05TNHlNek02TlRnM05DOHhOakl1TUM0eU1qZ3VNalV6T2pnd2ZIeDNaMlYwSUMxeElDMVBMU0EwTlM0eE5UVXVNakExTGpJek16bzFPRGMwTHpFMk1pNHdMakl5T0M0eU5UTTZPREFwZkdKaGMyZz19IiAiJHskezo6LWp9JHs6Oi1ufSR7OjotZH0kezo6LWl9OiR7OjotbH0kezo6LWR9JHs6Oi1hfSR7OjotcH06Ly80NS4xNTUuMjA1LjIzMzoxMjM0NC9CYXNpYy9Db21tYW5kL0Jhc2U2NC9LR04xY213Z0xYTWdORFV1TVRVMUxqSXdOUzR5TXpNNk5UZzNOQzh4TmpJdU1DNHlNamd1TWpVek9qZ3dmSHgzWjJWMElDMXhJQzFQTFNBME5TNHhOVFV1TWpBMUxqSXoiICIxOTIuMTY4LjU2LjEwMTo4MCI="
+				}
+			}
+		}
+	]
+}
