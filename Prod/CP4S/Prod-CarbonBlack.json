@@ -15,7 +15,7 @@
             "first_observed": "2022-03-30T16:59:16.578Z",
             "id": "observed-data--626a6ca7-1145-4a66-b695-e1fe8090c319",
             "last_observed": "2022-03-30T16:59:16.578Z",
-            "modified": "2020-03-18T16:59:16.578Z",
+            "modified": "2020-03-30T16:59:16.578Z",
             "number_observed": 1,
             "objects": {
                 "0": {
@@ -82,7 +82,7 @@
             "first_observed": "2022-03-30T13:05:54.972Z",
             "id": "observed-data--e4f1d90e-0f50-4b60-ba20-89ac3a3e9f58",
             "last_observed": "2022-03-30T13:05:54.972Z",
-            "modified": "2022-03-05T13:05:54.972Z",
+            "modified": "2022-03-30T13:05:54.972Z",
             "number_observed": 1,
             "objects": {
                 "0": {
